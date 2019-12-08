@@ -1,0 +1,13 @@
+[package]
+name = "aoc2019-rust"
+version = "0.1.0"
+authors = ["chrisaddy <chris.william.addy@gmail.com>"]
+edition = "2018"
+
+[lib]
+bench = false
+
+[dependencies]
+rust-crypto = "0.2.36"
+aoc-runner = "0.1.0"
+aoc-runner-derive = "0.1.0"
